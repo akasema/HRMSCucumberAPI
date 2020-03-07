@@ -21,4 +21,7 @@ public class APIConstants {
 	public static final String STORE_JSON = System.getProperty("user.dir")
             + "/src/test/resources/JSONFiles/store.json";
 
+	public static final String STORE_JSON = System.getProperty("user.dir")
+			+ "/src/test/resources/JSONFiles/store.json";
+
 }

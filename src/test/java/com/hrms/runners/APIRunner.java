@@ -12,10 +12,15 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/features", 
+@CucumberOptions(
+			features = "src/test/resources/features", 
 			glue = {"com.hrms.API.steps.practice" }, 
 			dryRun = false,
+<<<<<<< HEAD
 			tags = "@GoRest")
+=======
+			tags = "@GetAllEmployees")
+>>>>>>> fc9d7b0817f3ff83a8c552b50825b030fecbf901
 
 public class APIRunner {
 
