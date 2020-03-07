@@ -19,7 +19,7 @@ import io.cucumber.datatable.DataTable;
 
 public class AddEmployeeSteps extends CommonMethods {
 
-	String empId;
+	public String empId;
 	
 	@Given("I navigated to Add Employee Page")
 	public void i_navigated_to_Add_Employee_Page() {

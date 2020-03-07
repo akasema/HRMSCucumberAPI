@@ -48,7 +48,7 @@ public class SampleCreateEmployeeAPI {
 		 * 
 		 **/
 		request.body(CommonMethods.readJson(
-				"C:\\Users\\Blood of my blood\\git\\HrmsCucumberFramework\\src\\test\\resources\\JSONFiles\\createEmployee.json"));
+				"C:\\Users\\kadir\\eclipse-workspace\\NewHRMSCucumberFramework\\HrmsCucumberFramework\\src\\test\\resources\\JSONFiles\\createEmployee.json"));
 
 	}
 

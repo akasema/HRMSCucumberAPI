@@ -47,7 +47,7 @@ public class GETVerifyingUpdatedEmployee {
 	@Then("user validates updated employee exists")
 	public void user_validates_updated_employee_exists() {
 
-		response.then().body("employee[0].emp_firstname", equalTo("student1"));
+		response.then().body("employee[0].emp_firstname", equalTo("Akadir"));
 
 		response.then().body("employee[0].employee_id", equalTo(POSTCreateEmployeeAPI.employee_ID));
 		JsonPath jsonPathEvaluator = response.jsonPath();

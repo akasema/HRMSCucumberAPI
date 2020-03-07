@@ -30,7 +30,7 @@ public class GetAllEmployeesEndPoint {
 		response=request.get("http://18.232.148.34/syntaxapi/api/getAllEmployees.php");
 	}
 
-	@Then("status code is {int} for getAllEmployees")
+	@Then("status code is 200 for getAllEmployees")
 	public void status_code_is_for_getAllEmployees(Integer int1) {
 		response.then().assertThat().statusCode(int1);
 	}

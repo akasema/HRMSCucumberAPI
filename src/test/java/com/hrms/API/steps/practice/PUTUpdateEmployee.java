@@ -41,7 +41,7 @@ public class PUTUpdateEmployee {
 
 	@Then("user verifies employee name was updated")
 	public void user_verifies_employee_name_was_updated() {
-		response.then().body("employee[0].emp_firstname", equalTo("student1"));
+		response.then().body("employee[0].emp_firstname", equalTo("Akadir"));
 	}
 
 	@Then("user validates employee was updated")
